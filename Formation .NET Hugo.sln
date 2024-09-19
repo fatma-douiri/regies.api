@@ -3,20 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regis.API", "Regis.API\Regis.API.csproj", "{34E889CD-F0C4-437E-B10C-F915366B7581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Regis.API", "Regis.API\Regis.API.csproj", "{34E889CD-F0C4-437E-B10C-F915366B7581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{371B74CE-505C-4FD2-B9F3-41B9231FBE04}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{34E889CD-F0C4-437E-B10C-F915366B7581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{34E889CD-F0C4-437E-B10C-F915366B7581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E889CD-F0C4-437E-B10C-F915366B7581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E889CD-F0C4-437E-B10C-F915366B7581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {823A75F9-01D7-4A65-8347-59EC4C744711}
 	EndGlobalSection
 EndGlobal
