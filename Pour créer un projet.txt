@@ -1,0 +1,2 @@
+Pour créer un projet :
+dotnet new webapi -n Regis.API --no-openapi -controllers

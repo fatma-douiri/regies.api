@@ -1,6 +1,43 @@
-@Regis.API_HostAddress = http://localhost:5201
+
+@Regis.API_HostAddress = https://localhost:7149
 
 GET {{Regis.API_HostAddress}}/weatherforecast/
 Accept: application/json
+
+###
+GET {{Regis.API_HostAddress}}/weatherforecast/
+Accept: application/json
+Guid : {{$guid}}
+LocalDate : {{$datetime iso8601}}
+Random-init: {{$randomInt}}
+
+###
+POST {{Regis.API_HostAddress}}/weatherforecast/
+Content-Type:  application/json
+{
+  "email":"email"
+}
+###
+
+
+@take=3
+GET {{Regis.API_HostAddress}}/weatherforecast/{{take}}/GetConstruct?max=0
+
+###
+
+POST {{Regis.API_HostAddress}}/weatherforecast/currentDay
+Content-Type: application/json
+
+"string
+
+###
+
+POST {{Regis.API_HostAddress}}/weatherforecast/create?numberOfResults=4
+Content-Type: application/json
+
+{
+  "max": "20",
+  "min": "30"
+}
 
 ###
